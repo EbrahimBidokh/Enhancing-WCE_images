@@ -1,7 +1,8 @@
 # Enhancing Wireless Capsule Endoscopy Images
 
 ## Description 
-This repository contains the code and supplementary files for my research article titled "[Enhancing Wireless Capsule Endoscopy images from intense illumination specular reflections using the homomorphic filter]"—online version (https://www.sciencedirect.com/science/article/abs/pii/S1746809423001568). 
+This repository contains the code and supplementary files for my research article titled "[Enhancing Wireless Capsule Endoscopy images from intense illumination specular reflections using the homomorphic filter]".
+Online version (https://www.sciencedirect.com/science/article/abs/pii/S1746809423001568). 
 
 ## Introduction 
 
