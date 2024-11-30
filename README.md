@@ -1,9 +1,9 @@
 # Enhancing Wireless Capsule Endoscopy Images
 
 ## Description 
-This repository contains the code and supplementary files for my research article titled "[Enhancing Wireless Capsule Endoscopy images from intense illumination specular reflections using the homomorphic filter]".
+This repository contains the code and supplementary files for my research article titled "Enhancing Wireless Capsule Endoscopy images from intense illumination specular reflections using the homomorphic filter".
 
-Online version (https://www.sciencedirect.com/science/article/abs/pii/S1746809423001568). 
+The full version is available on (https://www.sciencedirect.com/science/article/abs/pii/S1746809423001568). 
 
 ## Abstract 
 
@@ -17,4 +17,6 @@ Wireless Capsule Endoscopy (WCE) is a non-invasive medical imaging device that g
 ## Material and method
 This part consists of three parts:
 ### Proposed U-Net structure for SR segmentation:
-We utilize RGB images with 256 × 256 pixels for the proposed model input. Since the proposed model provides a binary mask, the input and output sizes of the model must be the same. Accordingly, the model’s output produces a single-channel image with 256 × 256 pixels. The network architecture is demonstrated in Fig. 4. We established four convolution blocks (CONV) in each encoder and decoder path for our UNet model. The encoder blocks involve two 3 × 3 CONV layers, and each CONV layer is followed by batch normalization and rectified linear unit (ReLU) activation layer. There is a 2 × 2 max-pooling layer with stride 2 for down sampling after each CONV block. The number of feature maps is doubled at each down-sampling stage. The bottleneck layer uses two 3 × 3 CONV layers followed by a 2 × 2 up-convolution layer. Each block includes two 3 × 3 CONV layers in the decoder path that receives input. There is a concatenation with corresponding block feature maps in the encoder path, which is appended as input to each decoder block. After each block, a 2 × 2 up-convolution layer is used for up-sampling and halving the feature map. At the last layer, a 1 × 1 convolution layer with a sigmoid activation is utilized for mapping every 64-component feature vector to the intended number of classes. Eventually, a threshold will be applied to convert the image to a binary mask.
+We utilize RGB images with 256 × 256 pixels for the proposed model input. Since the proposed model provides a binary mask, the input and output sizes of the model must be the same. Accordingly, the model’s output produces a single-channel image with 256 × 256 pixels. The network architecture is demonstrated in Fig. 4. We established four convolution blocks (CONV) in each encoder and decoder path for our UNet model. The encoder blocks involve two 3 × 3 CONV layers, and each CONV layer is followed by batch normalization and rectified linear unit (ReLU) activation layer. There is a 2 × 2 max-pooling layer with stride 2 for down sampling after each CONV block. The number of feature maps is doubled at each down-sampling stage. The bottleneck layer uses two 3 × 3 CONV layers followed by a 2 × 2 up-convolution layer. Each block includes two 3 × 3 CONV layers in the decoder path that receives input. There is a concatenation with corresponding block feature maps in the encoder path, which is appended as input to each decoder block. After each block, a 2 × 2 up-convolution layer is used for up-sampling and halving the feature map. At the last layer, a 1 × 1 convolution layer with a sigmoid activation is utilized for mapping every 64-component feature vector to the intended number of classes. Eventually, a threshold will be applied to convert the image to a binary mask.<br /> The U-Net implemented code is available in this repository "model.py"
+
+The proposed U-Net architecture for SR segmentation.
