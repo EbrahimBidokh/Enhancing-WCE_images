@@ -29,4 +29,5 @@ When an image is captured, pixels of the image are often affected by two prevale
 In this section, we use the inpainting technique based on NavierStokes to reconstruct the SR areas. This algorithm is based on fluid dy­namics and utilizes Partial Differential Equations (PDEs). This algorithm causes the image Laplacian in the isophotes (stage lines) orientation to spread and resolves the image intensity’s smoothing gradient in the stage-lines direction. For example, the algorithm first moves along the edges from known to unknown areas (since edges are continuous). It also continues isophotes while adapting gradient vectors at the boundary of the inpainting area. Hence, the resulting design is a discontinuous esti­mation of the PDE (for more information read the full version).
 
 Block diagram of the proposed method.
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/b704c579-1b1c-4d81-ac45-125e575fdc7c)
+
