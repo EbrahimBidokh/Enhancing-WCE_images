@@ -10,11 +10,9 @@ Online version (https://www.sciencedirect.com/science/article/abs/pii/S174680942
 Wireless Capsule Endoscopy (WCE) is a non-invasive medical imaging device that gastroenterologists use to investigate gastrointestinal tract disorders. WCE images often suffer from specular reflections (SRs). SR is an outcome of the rigorous light and luminous regions emerging in WCE images, impacting the performance of abnormality detection approaches and physician analysis. The current study aims to invent a method that can automatically segment and eliminate SRs in WCE images to increase the accuracy of abnormality detection approaches and help physicians to make a potent diagnosis. In this study, we introduce a novel method for SR elimination with a negligible damage to the image texture using a homomorphic filter. The proposed method encompasses three steps. Initially, we utilize a robust segmentation technique using the U-Net model to segment SRs based on semantic segmentation. Then, we use the homomorphic filter to separate the illumination and reflection components. Damage caused by SR has different effects on these two components. Our proposed method enhances each of these components separately instead of enhancing the whole image uniformly. Eventually, we reconstruct SR regions using the Navier Stokes inpainting technique based on fluid dynamics. Our experiments were conducted on three different types of WCE datasets. The evaluations were performed with the following criteria accuracy, false negative rate, false positive rate, precision, recall, and F-Measure. The results show that our proposed method eliminates SRs admirably and quantitatively increases the accuracy of the stateof-the-art abnormality detection methods in WCE and improves their performance.
 
 ## Contributions and novelties 
-• Proposing an approach for the elimination of SR from WCE images with minimal damage to the inherent information of the image using HF.
-
-• A U-Net model based on binary semantic segmentation is proposed to segment SR in WCE images. This model only focuses on the SR pixels, not the other pixels in the image.
-
-• A Navier-Stokes inpainting technique is used to reconstruct the SR regions. The proposed technique reconstructs the SR region by selecting the most well-suited value from adjacent pixels.
+• Proposing an approach for the elimination of SR from WCE images with minimal damage to the inherent information of the image using HF.<be />
+• A U-Net model based on binary semantic segmentation is proposed to segment SR in WCE images. This model only focuses on the SR pixels, not the other pixels in the image.<be />
+• A Navier-Stokes inpainting technique is used to reconstruct the SR regions. The proposed technique reconstructs the SR region by selecting the most well-suited value from adjacent pixels.<be />
 
 ## Material and method
 This part consists of three parts:
