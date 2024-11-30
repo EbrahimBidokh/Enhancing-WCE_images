@@ -11,8 +11,8 @@ Wireless Capsule Endoscopy (WCE) is a non-invasive medical imaging device that g
 
 ## Contributions and novelties 
 • Proposing an approach for the elimination of SR from WCE images with minimal damage to the inherent information of the image using HF.<br />
-• A U-Net model based on binary semantic segmentation is proposed to segment SR in WCE images. This model only focuses on the SR pixels,    not the other pixels in the image.<br />
-• A Navier-Stokes inpainting technique is used to reconstruct the SR regions. The proposed technique reconstructs the SR region by selecting    the most well-suited value from adjacent pixels.<br />
+• A U-Net model based on binary semantic segmentation is proposed to segment SR in WCE images. This model only focuses on the SR pixels, not the other pixels in the image.<br />
+• A Navier-Stokes inpainting technique is used to reconstruct the SR regions. The proposed technique reconstructs the SR region by selecting the most well-suited value from adjacent pixels.<br />
 
 ## Material and method
 This part consists of three parts:
