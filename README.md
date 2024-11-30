@@ -1,9 +1,9 @@
 # Enhancing Wireless Capsule Endoscopy Images
 
 ## Description 
-This repository contains the code and supplementary files for my research article titled "Enhancing Wireless Capsule Endoscopy images from intense illumination specular reflections using the homomorphic filter".
+This repository contains the code and supplementary files, as well as a brief explanation for my research article titled "Enhancing Wireless Capsule Endoscopy images from intense illumination specular reflections using the homomorphic filter".
 
-The full version is available on (https://www.sciencedirect.com/science/article/abs/pii/S1746809423001568). 
+The full version is available online on (https://www.sciencedirect.com/science/article/abs/pii/S1746809423001568). 
 
 ## Abstract 
 
@@ -23,7 +23,7 @@ The proposed U-Net architecture for SR segmentation.
 ![image](https://github.com/user-attachments/assets/01f22b3e-dfab-49d3-b086-cc74d0810040)
 
 ### Homomorphic filtering:
-When an image is captured, pixels of the image are often affected by two prevalent cases called ambient light and light reflected by the object. The ambient light constitutes the illumination component, and the light reflected by objects constitutes the reflection component of an image. Therefore, each image is constituted of two illumination and reflection components. Image damages stemming from the SR can possess different effects on these two components. For this reason, we separate these two components by applying the homomorphic filter and then enhance them separately by using the inpainting technique. 
+When an image is captured, pixels of the image are often affected by two prevalent cases called ambient light and light reflected by the object. The ambient light constitutes the illumination component, and the light reflected by objects constitutes the reflection component of an image. Therefore, each image is constituted of two illumination and reflection components. Image damages stemming from the SR can possess different effects on these two components. For this reason, we separate these two components by applying the homomorphic filter and then enhance them separately by using the inpainting technique.<be /> You can find the code for the homomorphic filter in this repository "homo.py".
 
 ### Homomorphic filtering:
 In this section, we use the inpainting technique based on NavierStokes to reconstruct the SR areas. This algorithm is based on fluid dy­namics and utilizes Partial Differential Equations (PDEs). This algorithm causes the image Laplacian in the isophotes (stage lines) orientation to spread and resolves the image intensity’s smoothing gradient in the stage-lines direction. For example, the algorithm first moves along the edges from known to unknown areas (since edges are continuous). It also continues isophotes while adapting gradient vectors at the boundary of the inpainting area. Hence, the resulting design is a discontinuous esti­mation of the PDE (for more information read the full version).
