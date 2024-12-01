@@ -46,9 +46,11 @@ In this section, the experimental results of the proposed method will be visuall
 To further evaluate the performance of our proposed method, we employ it as a pre-processor for Amiri_1 and Amiri_2’s approaches. Amiri_1 has introduced an approach to detect abnormalities such as angiodysplasia, ulcer, bleeding, lymphoid hyperplasia, and polyp in WCE images. This approach uses a joint-normal distribution to highlight distinct areas and disregard non-distinct areas for abnormality detec­ tion. This approach extracts appropriate features associated with the color, texture, and shape of the region of interest. Eventually, the feature set will be used to classify the region as abnormal or normal using the support vector machine. Amiri_2 was introduced to detect abnormal­ ities, including bleeding and angiodysplasia, in WCE images. This method specifies potential regions of interest by utilizing an image segmentation algorithm based on expectation–maximization, then uses a composition of color histogram analysis and statistical features to classify images into normal and abnormal using a multi-layer perception.<br />
 
 We first evaluate Amiri_1’s method on the Kvasir-Capsule dataset before and after applying our pre-processing method. The re­sults are shown in the table below. It is obvious that our pre-processing improves the method in all measures, especially the accuracy, which has increased from 97.6% to 98.8%. The FN Rate and the Recall are two important measures for abnormality detection approaches because improving these measures enhances their performance. Our proposed method has significantly improved these two measures as in others.<br />
-![image](https://github.com/user-attachments/assets/9a343a28-7bc9-4b17-8b83-614db0f00b5f)
+
+![image](https://github.com/user-attachments/assets/57657569-af66-42ba-8b03-89e62a278477)
 
 Similarly, we next evaluate the performance of Amiri_2’s method before and after employing our pre-processing method. The dataset used in Amiri_2’s method is shown in Table (a) is shown below. The results of this experiment are demonstrated in Table (b). It is evident that our proposed method enhanced Amiri_2’s method per measure, particularly the accuracy which has been raised from 96.7% to 97.2%.<br />
+
 Table a<br />
 ![image](https://github.com/user-attachments/assets/6938d066-b941-4c01-b790-9dbe3edc056a)
 
