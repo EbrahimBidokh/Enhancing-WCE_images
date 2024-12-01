@@ -32,7 +32,7 @@ Block diagram of the proposed method.
 ![image](https://github.com/user-attachments/assets/b704c579-1b1c-4d81-ac45-125e575fdc7c)
 
 #### Evaluation criteria 
-  The evaluation criteria utilized to evaluate the proposed method include accuracy (AC), false negative rate (FN Rate), false positive rate (FP Rate), precision, recall, and F-measure.
+  The evaluation criteria utilized to evaluate the proposed method include accuracy (AC), false negative rate (FN Rate), false positive rate (FP Rate), precision, recall, and F-measure.<br />
 ![image](https://github.com/user-attachments/assets/5d0fb1db-d74d-4bab-a519-93689dded560)
 ![image](https://github.com/user-attachments/assets/bcf1f076-b197-4447-b671-dd5bcbb13ab3)
 
