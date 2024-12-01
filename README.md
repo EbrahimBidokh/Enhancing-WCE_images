@@ -49,8 +49,8 @@ We first evaluate Amiri_1’s method on the Kvasir-Capsule dataset before and af
 ![image](https://github.com/user-attachments/assets/9a343a28-7bc9-4b17-8b83-614db0f00b5f)
 
 Similarly, we next evaluate the performance of Amiri_2’s method before and after employing our pre-processing method. The dataset used in Amiri_2’s method is shown in Table (a) is shown below. The results of this experiment are demonstrated in Table (b). It is evident that our proposed method enhanced Amiri_2’s method per measure, particularly the accuracy which has been raised from 96.7% to 97.2%.<br />
-Table a
+Table a<br />
 ![image](https://github.com/user-attachments/assets/6938d066-b941-4c01-b790-9dbe3edc056a)
-<br />
+
 Table b
 ![image](https://github.com/user-attachments/assets/7a8dd266-7b53-47cb-988d-2a74fd44bde5)
