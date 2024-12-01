@@ -31,3 +31,8 @@ In this section, we use the inpainting technique based on NavierStokes to recons
 Block diagram of the proposed method.
 ![image](https://github.com/user-attachments/assets/b704c579-1b1c-4d81-ac45-125e575fdc7c)
 
+
+## Table 
+- [Intro](Methodology)
+- [Conclo](Quality)
+- [Results](Quantative)
