@@ -56,3 +56,10 @@ Table a<br />
 
 Table b
 ![image](https://github.com/user-attachments/assets/7a8dd266-7b53-47cb-988d-2a74fd44bde5)
+
+
+In this paper, a novel method using HF for SR elimination from WCE images was proposed. In the proposed method, at first, a powerful se­ mantic segmentation method utilizing the U-Net model is used for automatic SR segmentation. Then, the illumination and reflection components of the images were separated using the HF. We observed that the destruction of SR may not be the same in the illumination and reflection components. For this reason, the damaged areas in each component were separately reconstructed by using the Navier-Stokes inpainting technique. This approach minimizes the destruction effect on the image texture. Although the inpainting technique has recon­ structed the areas damaged by SR satisfactorily, but this technique ig­nores the intrinsic information of the image. That is why, in cases where the SR area in the image is extensive, it may not have acceptable per­formance in the reconstruction of that area. We evaluated the perfor­mance of the proposed method with the criteria of accuracy, FNR, FPR, precision, recall, and F-Measure and conducted it on two datasets. The results indicated that our proposed method has a satisfactory result in terms of quality and has eliminated SR well. In addition, our proposed method improved the performance of abnormality detection methods and increased their accuracy from 97.6% to 98.8% and 96.7% to 97.2%, respectively.
+
+Note: The code for this research has been implemented and placed in this repository. To run the code, open the main.py file and run it.<br />
+Note: The weights obtained from training the U-Net model for specular reflection segmentation are not in this repository. If you need them, email ebrahim.bidokh1@gmail.com.<br />
+Note: Several types of datasets were used in this research. Read the full version of this research and if you need the datasets, email ebrahim.bidokh1@gmail.com.
